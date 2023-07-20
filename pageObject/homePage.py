@@ -49,7 +49,7 @@ class HomePage:
 
     docThreeDots = (By.XPATH, "(//tr[1]/td[8]/div[1]/span[4]")
 
-    def clickThreedots(self, driver):
+    def clickThreedot(self, driver):
         return self.driver.find_element(*HomePage.docThreeDots)
 
     restartProcess = (By.XPATH, "//li[normalize-space()='Restart process']")
